@@ -1,0 +1,40 @@
+.button-animation {
+  animation-duration: 1s;
+  animation-name: fadeIn;
+  animation-timing-function: ease-in-out;
+}
+
+.wine-menu {
+  animation-duration: 1s;
+  animation-name: fadeIn;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes fadeIn {
+  0% {opacity: 0;}
+  100% {opacity: 1;}
+}
+
+
+.video-down-enter {
+  opacity: 0.8;
+  transform: translateY(100%)
+}
+
+.video-down-enter-active {
+  opacity: 1; 
+  transform: translateY(0%);
+  transition:  transform 1s ease-in-out;
+}
+
+
+.video-down-exit {
+  opacity: 1; 
+  transform: translateY(-100%);
+}
+
+.video-down-exit-active {
+  opacity: 0.8;
+  transform: translateY(-200%);
+  transition: transform 1s ease-in-out;
+}

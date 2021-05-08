@@ -1,0 +1,9 @@
+.button-animation {
+  animation-duration: 3s;
+  animation-name: fadeIn;
+  animation-timing-function: ease-in-out;
+}
+@keyframes fadeIn {
+  0% {opacity: 0;}
+  100% {opacity: 1;}
+}
